@@ -1,0 +1,27 @@
+<script>
+    alert("¡Bienvenido/a!, vamos a poner en práctica sus habilidades");
+    alert("Va a ingresar un numero IMPAR entre 10 y 20 a elección el cual va a ser multiplicado por X numero y luego mediante el resultado, desifrar dicho numero");
+    
+    let numero = 7;
+
+    let numeroUno = parseInt(prompt("Ingrese un numero"));
+    if(numeroUno >= 10 && numeroUno <= 20){
+        let multiplicacion = numeroUno * numero;
+        alert("El resultado es: " + multiplicacion);
+    }
+    else{
+        alert("Recuerda ingresar un numero IMPAR entre 10 y 20");
+        let numeroUno = parseInt(prompt("Ingrese un numero nuevamente"));
+    }
+
+    let resultado = parseInt(prompt("Ingrese el numero por el cual cree que se multiplico"))
+
+    if(resultado == numero){
+        alert("El numero ingresado es el correcto");
+        alert("¡Excelente, que bueno/a eres!")
+    }   
+    else{
+        alert("¡Ups, no es! Intente nuevamente presionando f5");  
+    }
+
+</script>
